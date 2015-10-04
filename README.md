@@ -1,4 +1,5 @@
-spark + elasticsearch + git fun
+spark + elasticsearch + git fun.
+
 This project indexes 10k documents into a local elasticsearch server. 
 
 script: scripts/index_es_bulk.sh
