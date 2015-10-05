@@ -4,9 +4,10 @@ This project indexes 10k documents into a local elasticsearch server and extract
 
 script: scripts/index_es_bulk.sh
 
-You will need jq to run the script. It's used to get the json file in the proper bulk api format for indexing into the elastic searcher. 
+You will need jq to run the script. It's used to get the json file in the proper bulk api format for indexing into the elastic server. 
 
 https://stedolan.github.io/jq/
+
 
 To install:
 
@@ -19,6 +20,8 @@ yum: sudo yum install jq
 osx:
 
 homebrew: brew install jq
+
+https://stedolan.github.io/jq/download/
 
 
 An online JSON generator was used to create dummy data: http://jsongen.pykaso.net/
