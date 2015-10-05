@@ -28,7 +28,7 @@ An online JSON generator was used to create dummy data: http://jsongen.pykaso.ne
 
 data: data/generated.json
 
-comman line: ./index_es_bulk.sh generated.json
+command line: ./index_es_bulk.sh generated.json
 
 
-SimpleSparkJob.java: A spark job reads in all documents with index "records" and type "human" from es server and prints them to the screen. 
+SimpleSparkJob.java: A spark job reads in all documents with index "records" and type "human" from local es server and prints them to the screen. 
