@@ -8,14 +8,14 @@ package com.evertrue.spark;
  *
  **/
 
-        import org.apache.spark.SparkConf;
-        import org.apache.spark.api.java.JavaRDD;
-        import org.apache.spark.api.java.JavaSparkContext;
+import org.apache.spark.SparkConf;
+import org.apache.spark.api.java.JavaRDD;
+import org.apache.spark.api.java.JavaSparkContext;
 
-        import static org.elasticsearch.spark.rdd.api.java.JavaEsSpark.*;
+import java.util.List;
+import java.util.Map;
 
-        import java.util.Map;
-        import java.util.List;
+import static org.elasticsearch.spark.rdd.api.java.JavaEsSpark.esRDD;
 
 
 public class SimpleSparkJob {
