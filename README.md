@@ -11,7 +11,7 @@ https://stedolan.github.io/jq/
 
 To install:
 
-linus: 
+linux: 
 
 apt : sudo apt-get install jq
 
