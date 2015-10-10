@@ -1,1 +1,10 @@
 .idea
+.classpath
+.project
+SparkJob.iml
+SparkJob.eml
+SparkJob.userlibraries
+build.xml
+manifest.mf
+nbproject
+target
